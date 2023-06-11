@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Угадай животное</title>
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container"> 
+        <h1 class="title">Угадай животное</h1>
+
+        <div class="question-die">
+            <div class="upper-line">
+                <div>
+                    <p class="question-number-die">Вопрос 1</p>
+                </div>
+
+                <div>
+                    <p class="add-info">
+                        Верный ответ – плюс балл
+                        Неверный ответ – минус балл
+                    </p>
+                </div>
+            </div>
+
+            <div class="bottom-line">
+                <p class="question">На каком фото капибара?</p>
+            </div>
+        </div>
+
+        <div class="animals">
+            <div class="animal-one">
+                <img src="img/Кабан.jpg" alt="Кабан">
+                <span class="number-one">1</span>
+            </div>
+
+            <div class="animal-two">
+                <img src="img/Морж.jpg" alt="Морж">
+                <span class="number-two">2</span>
+            </div>
+
+            <div class="animal-three">
+                <img src="img/Морская свинка.jpg" alt="Морская свинка">
+                <span class="number-three">3</span>
+            </div>
+
+            <div class="animal-four">
+                <img src="img/Капибара.jpg" alt="Капибара">
+                <span class="number-four">4</span>
+            </div>
+
+            <div class="animal-five">
+                <img src="img/Олень.jpg" alt="Олень">
+                <span class="number-five">5</span>
+            </div>
+
+            <div class="animal-six">
+                <img src="img/Медведь.jpg" alt="Медведь">
+                <span class="number-six">6</span>
+            </div>
+        </div>
+
+        <div class="answers-dies">
+            <div class="answer-die" id="numberOne">
+                Фото 1
+            </div>
+
+            <div class="answer-die" id="numberTwo">
+                Фото 2
+            </div>
+
+            <div class="answer-die" id="numberThree">
+                Фото 3
+            </div>
+
+            <div class="answer-die" id="numberFour">
+                Фото 4
+            </div>
+
+            <div class="answer-die" id="numberFive">
+                Фото 5
+            </div>
+
+            <div class="answer-die" id="numberSix">
+                Фото 6
+            </div>
+        </div>
+
+        <p class="result-message" id="resultMessage"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
